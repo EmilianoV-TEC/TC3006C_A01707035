@@ -3,6 +3,8 @@
 
 Archivos: Entrega_M2_A01707035.py, Fish.csv
 
+Requisitos: Una versión actualizada de **Python 3** junto con las librerías **numpy**, **pandas** y **matplotlib**
+
 La ejecución del código tarda algunos segundos.
 
 ## Dataset
