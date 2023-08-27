@@ -1,7 +1,7 @@
 # Momento de Retroalimentación: Módulo 2 Implementación de una técnica de aprendizaje máquina sin el uso de un framework. (Portafolio Implementación)
 ### Emiliano Vásquez Olea - A01707035
 
-Archivo: Entrega_M2_A01707035.py
+Archivos: Entrega_M2_A01707035.py, Fish.csv
 
 La ejecución del código tarda algunos segundos.
 
