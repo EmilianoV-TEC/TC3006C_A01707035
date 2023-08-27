@@ -136,7 +136,7 @@ def linear_regression(df_x_train, df_y_train, epochs, batch_size, alpha):
 
   return params
 
-df = pd.read_csv('Fish.csv') # Lectura de datos
+df = pd.read_csv('Fish.csv') # Carga de datos
 
 df.drop(df[df['Weight'] < 1].index, inplace = True) # Limpiar instancia con valor faltante de peso
 
@@ -154,7 +154,7 @@ df_y_test = df_test[['Weight']]
 
 # Definición de hiperparámetros: learning rate, iteraciones y tamaño de los batches
 alpha = 0.03
-epochs = 400
+epochs = 350
 batch_size = 31
 
 # Se aplica la estandarización de los datos
