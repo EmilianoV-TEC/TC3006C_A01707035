@@ -50,9 +50,9 @@ Al ejecutar el código se lleva a cabo el entrenamiento del modelo y posteriorme
 
 ## Parámetros finales y notas
 
-Los parámetros del modelo son definidos al momento de crear el RandomForestClassifier en la línea 27 del código, entre los que fueron asignados se encuentran:
+Los parámetros del modelo son definidos al momento de crear el RandomForestClassifier en la línea 55 del código, entre los que fueron asignados se encuentran:
 
-- n_estimators: 150, indica el número de árboles de decisión utilizados en el bósque
+- n_estimators: 200, indica el número de árboles de decisión utilizados en el bósque
 - n_jobs: -1, El número de trabajos u operaciones que corren en paralelo, asignar un -1 indica que se utilicen todos los procesadores (para su uso en notebooks o servicios que cuentan con acceso a varios procesadores)
 - max_features: None, indica la cantidad máxima de features que se toman en cuenta al definir los nodos en los arboles de decisión.
 - random_state: 50, una semilla utilizada para realizar diferentes operaciones dentro del modelo.
