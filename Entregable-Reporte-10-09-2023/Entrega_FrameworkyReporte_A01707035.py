@@ -15,7 +15,7 @@ from sklearn.preprocessing import MinMaxScaler
   En este caso, se ve la implementación para probar diferentes valores de n_estimators.
 '''
 def test_model_params(df_x_train, df_y_train, df_x_val, df_y_val):
-  estimator_opts = [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220] # Opciones para el hiperparametro
+  estimator_opts = [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220] # Opciones para el hiperparametro
   train_results = []
   val_results = []
 
@@ -25,6 +25,8 @@ def test_model_params(df_x_train, df_y_train, df_x_val, df_y_val):
 
     train_results.append(accuracy_score(df_y_train, model.predict(df_x_train)))
     val_results.append(accuracy_score(df_y_val, model.predict(df_x_val)))
+
+  plt.ylim([0, 1.1])
 
   plt.plot(estimator_opts, train_results, label = "Puntaje en entrenamiento")
   plt.plot(estimator_opts, val_results, color = "orange", label = "Puntaje de validación")
