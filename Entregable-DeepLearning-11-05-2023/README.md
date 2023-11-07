@@ -34,7 +34,7 @@ Entre los parámetros iniciales del modelo, adicionales a la arquitectura utiliz
 - epochs: 15, cantidad de épocas o iteraciones en el entrenamiento
 - steps_per_epoch: 200, pasos de ajuste realizados por época.
 
-Como fué mencionado anteriormente, se utilizan los conjuntos de entrenamiento y validación para el proceso de ajuste, además de que se integra un callback para guardar los pesos en forma de checkpoints a lo largo del proceso.
+Como fué mencionado anteriormente, se utilizan los conjuntos de entrenamiento y validación para el proceso de ajuste, además de que se integra un callback para guardar los pesos en forma de checkpoints a lo largo del proceso. La imagen "image1_joker.jpg" es utilizada para realizar una predicción separada en el despliegue, como es mencionado en el *notebook*, a este tipo de archivos se les debe aplicar una división adicional.
 
 Es posible que algunos de estos valores, así como la arquitectura, sean ajustados como parte del análisis del rendimiendo del modelo, que se encuentra documentado en el reporte de esta entrega.
 
